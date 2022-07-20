@@ -387,7 +387,8 @@ public abstract class BaseDimDoor extends BlockDoor implements IDimDoor, ITileEn
     @Override
 	public Item getItemDropped(int metadata, Random random, int fortune)
     {
-        return isUpperDoorBlock(metadata) ? null : this.getDoorItem();
+        //return isUpperDoorBlock(metadata) ? null : this.getDoorItem();
+		return null;
     }
 
     @Override
