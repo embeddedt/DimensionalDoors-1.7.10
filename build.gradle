@@ -9,7 +9,7 @@ buildscript {
             name = "sonatype"
             url = "https://oss.sonatype.org/content/repositories/snapshots/"
         }
-	    maven {
+        maven {
             url = "https://jitpack.io"
         }
     }
